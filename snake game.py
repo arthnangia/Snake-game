@@ -97,9 +97,9 @@ def creator():
     start_inst1_rect.center = (WINDOW_WIDTH/2, 420)
     canvas.blit(start_inst1, start_inst1_rect)
 
-    start_inst2 = small_font.render("Hello guys, This is Surya. Thanks for playing my game.", True, BLUE)
+    start_inst2 = small_font.render("Hello guys, This is Arth. Thanks for playing my game.", True, BLUE)
     start_inst3 = small_font.render("This is a very simple game, developed using python", True, BLUE)
-    start_inst4 = small_font.render("In case of queries, write to surajchinna1@gmail.com", True, BLUE)
+    start_inst4 = small_font.render("In case of queries, write to nangiaarth25@gmail.com", True, BLUE)
     canvas.blit(start_inst2, (10, 470))
     canvas.blit(start_inst3, (10, 500))
     canvas.blit(start_inst4, (10, 530))
